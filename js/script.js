@@ -5,7 +5,6 @@ const cvFiles = {
 };
 
 const downloadCvBtn = document.getElementById('download-cv-btn');
-const viewCvBtn = document.getElementById('view-cv-btn');
 
 document.querySelectorAll('.cv-toggle-btn').forEach(btn => {
     btn.addEventListener('click', function() {
@@ -15,7 +14,6 @@ document.querySelectorAll('.cv-toggle-btn').forEach(btn => {
         const cv = cvFiles[this.getAttribute('data-cv')];
         downloadCvBtn.setAttribute('href', cv.path);
         downloadCvBtn.setAttribute('download', cv.filename);
-        viewCvBtn.setAttribute('href', cv.path);
     });
 });
 
