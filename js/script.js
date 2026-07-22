@@ -56,7 +56,7 @@ const projectsData = [
         title: "College Learning Management System",
         category: "backend",
         tech: ["ASP.NET Core MVC", "SQL", "C#", "Entity Framework"],
-        description: "Built a web-based LMS to manage student enrollments and course materials. Implemented role-based access control, user authentication, and followed MVC architecture patterns. Learned database design with Entity Framework, user authentication flows, and web application security best practices.",
+        description: "Problem: Institutions relying on manual or ad hoc processes for enrollment and course management face access-control gaps and data integrity risks. Solution: Built a full-stack ASP.NET Core MVC web application with role-based access control, secure authentication, and CRUD-driven course/enrollment management backed by Entity Framework and SQL Server. Outcome: A working multi-role system (student/instructor/admin) demonstrating secure, database-backed web architecture — the same pattern I now apply on real client and production work.",
         image: "assets/images/CollegeLMS.png",
         github: "https://github.com/Evesprogram/A-College-LMS-Application"
     },
@@ -65,7 +65,7 @@ const projectsData = [
         title: "Fleet Management Dashboard",
         category: "desktop",
         tech: ["C#", "Windows Forms", "SQL", "Data Visualization"],
-        description: "Developed a dashboard for tracking fleet operations with real-time data visualization. Implemented data aggregation from SQL database and created interactive charts. Strengthened skills in data visualization, performance optimization, and complex UI layouts.",
+        description: "Problem: Potent Conceptials (Pty) Ltd had no centralized way to monitor fuel efficiency, vehicle location, or driver safety across their fleet — risks like driver fatigue, illness, or hijacking situations, and cost drains like poor route planning and fuel waste, went unseen until it was too late. Solution: Built Certiflow360, a C# WinForms desktop application with a SQL Server backend and live GPS/mapping via Leaflet, plus an alerting system — laying the platform for fuel-intelligence tracking, smart route optimization, and driver-safety monitoring as the system expands. Outcome: A production system now in active use, giving fleet managers real-time visibility instead of reactive guesswork, later expanded with a companion Blazor Server web dashboard and automated email alerting.",
         image: "assets/images/FleetManagement.png",
         github: "https://github.com/Evesprogram/FleetManagement-Application"
     },
@@ -84,7 +84,7 @@ const projectsData = [
         title: "DCF Research Institute — Clinical Data Quality Dashboard",
         category: "analytics",
         tech: ["Power BI", "DAX", "Excel/CSV", "Data Analysis"],
-        description: "Analyzed 420 Data Correction Forms (DCFs) raised between 2022–2025 for a clinical research organization to uncover the root causes of recurring data-quality issues. Built Power BI dashboards tracking trigger sources, error categories, site performance, and turnaround time, then delivered a corrective-action plan to stakeholders. Found that 98.3% of errors were pre-analytical and that just 3 sites accounted for 65% of all DCFs. Median resolution time improved from 19 days (2022) to 6 days (2024).",
+        description: "Problem: A clinical research organization had 420 recurring Data Correction Forms (DCFs) raised between 2022–2025, with no clear visibility into why errors kept happening or which sites were driving them. Solution: Built Power BI dashboards tracking trigger sources, error categories, site performance, and turnaround time, then delivered a corrective-action plan to stakeholders. Outcome: Found that 98.3% of errors were pre-analytical and that just 3 sites accounted for 65% of all DCFs; median resolution time improved from 19 days (2022) to 6 days (2024).",
         image: "assets/images/DCFResearchInstitute.png",
         github: "https://github.com/Evesprogram/DCF-Research-Institute"
     },
@@ -93,7 +93,7 @@ const projectsData = [
         title: "Power BI Dashboard",
         category: "analytics",
         tech: ["Power BI", "Data Transformation", "DAX", "SQL"],
-        description: "Designed and built interactive dashboards for business intelligence. Performed data cleaning, transformation, and created DAX measures for KPI tracking. Demonstrated ability to turn raw data into actionable business insights for stakeholders.",
+        description: "Problem: Raw operational data is hard to act on without structure — stakeholders needed to see trends and KPIs at a glance rather than parsing spreadsheets. Solution: Cleaned and transformed raw datasets, then built interactive Power BI dashboards with DAX-driven KPI measures for reporting. Outcome: Turned static spreadsheet data into a tool stakeholders could use directly for decision-making, without needing to interpret raw numbers themselves.",
         image: "assets/images/PowerBI-Dashboard.png",
         github: "#"
     },
@@ -102,7 +102,7 @@ const projectsData = [
         title: "College Management System",
         category: "desktop",
         tech: ["C#", ".NET 8", "Windows Forms", "SQL Server", "Microsoft.Data.SqlClient", "EPPlus"],
-        description: "Started as a single-form Student Management System handling 200+ student records with basic CRUD, search, and filtering. Rebuilt and expanded into a full College Management System with role-based login (Admin/Lecturer), a central dashboard hub, and CRUD across Students, Lecturers, Courses, Modules, and Departments. Added generic print-preview and Excel/CSV export (via EPPlus) reusable across every data grid, and introduced a shared BaseForm layer to cut duplication and keep the UI consistent across all forms.",
+        description: "Problem: Manually tracking student marks, attendance, and administrative records doesn't scale — no role separation, no reporting, no reusable admin tooling, and a high risk of errors or lost paperwork. Solution: Rebuilt from a single-form Student Management System into a full College Management System with role-based login (Admin/Lecturer), a central dashboard, and CRUD across Students, Lecturers, Courses, Modules, and Departments — including marks and attendance tracking — with reusable print-preview and Excel/CSV export built once via a shared BaseForm layer. Outcome: Reduces manual administrative work by centralizing marks, attendance, and record-keeping in one role-aware system instead of paper or disconnected spreadsheets.",
         image: "assets/images/College-app.png",
         github: "https://github.com/Evesprogram/CollegeApplication"
     },
@@ -111,7 +111,7 @@ const projectsData = [
         title: "Teller Application",
         category: "desktop",
         tech: ["C#", "Windows Forms", "OOP"],
-        description: "Built a banking simulation application to practice transactional workflows and financial calculations. Implemented account management, transaction logging, balance tracking, and error handling for edge cases. Strengthened OOP principles and business logic design.",
+        description: "Problem: Understanding how real banking systems handle multi-step transactions, validation, and state safely is hard to learn without building one. Solution: Built a banking simulation in C#/WinForms covering account management, transaction logging, balance tracking, and edge-case error handling across multi-step workflows. Outcome: Solidified OOP and business-logic design skills directly transferable to transactional, data-integrity-sensitive systems.",
         image: "assets/images/Teller-App.png",
         github: "#"
     },
@@ -120,7 +120,7 @@ const projectsData = [
         title: "Weather Dashboard",
         category: "web",
         tech: ["JavaScript", "HTML5", "CSS3", "REST API", "Async/Await"],
-        description: "Built a responsive weather application that fetches real-time data from a weather API using async/await. Implemented dynamic UI updates and local storage for user preferences. My first web project that solidified JavaScript fundamentals and API integration.",
+        description: "Problem: Needed a first real-world project to prove out JavaScript fundamentals and API consumption beyond tutorials. Solution: Built a responsive weather app consuming the Open-Meteo REST API with async/await, dynamic UI updates, and local storage for user preferences. Outcome: My first shipped web project — solidified the JS and API-integration fundamentals that every later project builds on.",
         image: "assets/images/weather-Dashboard.png",
         github: "https://github.com/Evesprogram/Weather-App-DashBoard",
         demo: "https://weather-app-dash-board.vercel.app/"
@@ -130,7 +130,7 @@ const projectsData = [
         title: "Mini Budget Tracker",
         category: "web",
         tech: ["JavaScript (ES6)", "HTML5", "CSS3", "Chart.js", "Local Storage"],
-        description: "Built an interactive budget tracking web app to log expenses by category, set and monitor savings goals, and visualize spending with dynamic Chart.js charts and progress bars. Implemented local storage for data persistence across sessions and wrote unit tests covering core budget calculation logic.",
+        description: "Problem: Personal finance tools are often too simple (no goals or budgets) or too complex for everyday use — wanted something lightweight that still supports real budgeting behavior. Solution: Built a budget tracker with category-based expense logging, savings goals, dynamic Chart.js visualizations, and local storage persistence, with unit tests covering the core calculation logic. Outcome: A working personal tool, plus practice writing tested, maintainable JS logic rather than just UI code.",
         image: "assets/images/MiniBudgetTracker.png",
         github: "https://github.com/Evesprogram/Mini-Budget-Tracker"
     },
@@ -139,7 +139,7 @@ const projectsData = [
         title: "To-Do List Application",
         category: "web",
         tech: ["JavaScript", "DOM", "Local Storage", "HTML5"],
-        description: "Created a task management app with add, edit, delete, and mark-complete functionality. Used DOM manipulation and browser local storage for data persistence. Excellent foundation for understanding JavaScript interactivity, event handling, and state management.",
+        description: "Problem: Needed a focused project to learn DOM manipulation and state handling without a framework doing it for me. Solution: Built a task manager with add/edit/delete/complete functionality, using vanilla DOM manipulation and local storage for persistence. Outcome: Built the JavaScript interactivity and event-handling foundation that carried into every project since.",
         image: "assets/images/To-do-List.png",
         github: "https://github.com/Evesprogram/To-do-App",
         demo: "https://to-do-app-murex-delta-27.vercel.app/"
